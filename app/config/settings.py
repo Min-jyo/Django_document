@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'one_to_one.apps.OneToOneConfig',
     'many_to_many.apps.ManyToManyConfig',
     'many_to_one.apps.ManyToOneConfig',
     'myapp.apps.MyappConfig',
